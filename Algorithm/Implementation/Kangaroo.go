@@ -15,7 +15,6 @@ func main() {
                 if (x1 + x2 * i) == (y1 + y2 * i) {
                     fmt.Print("YES")
                     flag = false
-                    break
                 }
                 i = i +1
             }
@@ -33,12 +32,11 @@ func main() {
                 if (x1 + x2 * i) == (y1 + y2 * i) {
                     fmt.Print("YES")
                     flag = false
-                    break
                 }
                 i = i +1
             }
             if flag {
-                fmt.Printf("NO")                
+                fmt.Printf("NO")
             }
         }
     }
