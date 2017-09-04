@@ -28,7 +28,6 @@ func main() {
 		if valley == 0 && flag {
 			count = count + 1
 		}
-		//fmt.Println(valley, count, flag)
 	}
 	fmt.Printf("%d", count)
 }
